@@ -1,0 +1,27 @@
+{
+  "name": "Web-socket-nodeJs",
+  "version": "1.0.0",
+  "description": "Chat with nodeJs and Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanRamirezJ/Web-socket-nodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanRamirezJ/Web-socket-nodeJs/issues"
+  },
+  "homepage": "https://github.com/JonathanRamirezJ/Web-socket-nodeJs#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

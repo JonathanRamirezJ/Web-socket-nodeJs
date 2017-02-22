@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sockets</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- Wellcome-->
+  <div class="hero text-center">
+    <h1>Talking web-app!!</h1>
+    <p>Learn more for this app for you.</p>
+  </div>
+
+  <!--component-->
+  <h1 class="text-center">web chat</h1>
+
+  <div class="container" id="messages"></div>
+  <div class="container">
+    <form onsubmit="return addMessage(this)">
+      <input id="username" type="text" placeholder="Author">
+      <input id="text" type="text" placeholder="text">
+      <input type="submit" value="Enviar!">
+    </form>
+  </div>
+</body>
+</html>
